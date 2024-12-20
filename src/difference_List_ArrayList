@@ -1,0 +1,1 @@
+List是接口继承collection，ArrayList是类继承abstractList,是对List的实现
