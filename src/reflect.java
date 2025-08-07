@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 public class reflect {
 
     public static void main(String []agrs) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
+        //传入包路径
         Class<?> testClass=Class.forName("src.testClass");
 //        testClass testClass1=testClass.newInstance();
         Method[] methods = testClass.getDeclaredMethods();
